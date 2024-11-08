@@ -1,9 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
-}
+
+
+/*
+
+
 
 /*
     PRUEBA DE TITULO EN MOVIMIENTO
@@ -90,49 +89,6 @@ body {
 
 
 
-
-
-body {
-
-  color: #fff;
-  /* background: linear-gradient(120deg, rgba(2, 0, .6, 1) 0%, rgb(5, 9, 54) 80%); */
-  /* background: rgb(2, 5, 37); */
-  background: linear-gradient(90deg, rgba(2, 0, 1, 0.993) 0%, rgb(2, 6, 48) 100%);
-}
-
-html {
-  scroll-behavior: smooth;
-
-}
-
-.newprofile{
-  color : yellow;
-  border : 2px solid;
-  padding : 10px;
-}
-
-
-.box {
-  opacity: 0;
-  transition: opacity 3.5s ease;
-  -webkit-transition: opacity 3.5s ease;
-  -moz-transition: opacity 3.5s ease;
-  -ms-transition: opacity 3.5s ease;
-  -o-transition: opacity 3.5s ease;
-}
-
-
-@keyframes slideIn1 {
-  0% {
-      opacity: 0;
-      transform: translateX(-100%);
-  }
-
-  100% {
-      opacity: 1;
-      transform: translateX(0);
-  }
-}
 
 
 
